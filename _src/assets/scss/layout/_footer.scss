@@ -1,0 +1,28 @@
+.footer {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-top: 60px;
+    background-color: $color-dark;
+    color: $color-light;
+    font-family: $font-family-nd;
+    font-size: 16px;
+}
+
+.footer_menu {
+    grid-row: span 1;
+    &_item {
+        display: block;
+        padding: 5px;
+    }
+    &_socialmedia {
+        grid-row: span 1;
+    }
+}
+
+.menu_link {
+    text-decoration: none;
+    color: $color-light;
+}

@@ -5,8 +5,16 @@
 @import 'components/hero';
 @import 'layout/header';
 @import 'layout/section1';
+@import 'layout/section2';
 @import 'layout/footer';
 @import 'pages/index';
+
+/*containers para los margenes. gracias Carlos*/
+
+.container {
+    margin: 30px 15px 45px 15px;
+}
+
 
 /*meter los partials scss que necesite
 
