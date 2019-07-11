@@ -1,59 +1,54 @@
-    .icon__menu {
-        position: fixed;
-        background-color: $color-dark;
-        height: 44px;
-        width: 44px;
-        top: 0px;
-        left: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .icon__menu_image {
-        width: 18px;
-    }
-    
-    .icon__next-section {
-        background-color: $color-light;
-        width: 45px;
-        height: 45px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 60%;
-        margin-bottom: 40px;
-        margin-top: 20px;
-    }
-    
-    .buttom {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        &_go {
-            background-color: $color-light;
-            height: 45px;
-            width: 76px;
-            border-radius: 35%;
-            border: solid $color-secondary 2.5px;
-            color: $color-secondary;
-            font-size: 20px;
-            line-height: 45px;
-            text-align: center;
-            font-family: $font-family-nd;
-        }
-        &_reasons {
-            grid-row: span 1;
-            background-color: $color-secondary;
-            height: 45px;
-            width: 165px;
-            border-radius: 20px;
-            border: solid $color-secondary 2.5px;
-            color: $color-light;
-            text-align: center;
-            font-family: $font-family-nd;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    }
+.icon__menu {
+    position: fixed;
+    background-color: $color-dark;
+    height: 44px;
+    width: 44px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__menu_image {
+    width: 18px;
+}
+
+.buttom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttom_go {
+    background-color: $color-light;
+    height: 45px;
+    width: 76px;
+    border-radius: 35%;
+    border: solid $color-secondary 2.5px;
+    color: $color-secondary;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    font-family: $font-family-nd;
+}
+
+.buttom_reasons {
+    grid-row: span 1;
+    background-color: $color-secondary;
+    height: 45px;
+    width: 165px;
+    border-radius: 20px;
+    border: solid $color-secondary 2.5px;
+    color: $color-light;
+    text-align: center;
+    font-family: $font-family-nd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__home {
+    position: relative;
+    top: 22.5px;
+}

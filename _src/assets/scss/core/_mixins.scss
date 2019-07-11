@@ -1,0 +1,20 @@
+@mixin icon-properties {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background-color: $color-light;
+}
+
+.icon__home,
+.icon__next-section {
+    @include icon-properties();
+}
+
+.icon__home {
+    margin: 0;
+}
