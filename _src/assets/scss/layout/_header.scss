@@ -27,3 +27,17 @@
     font-size: 16px;
     margin-top: 10px;
 }
+
+@media all and(min-width:768px) {
+    .title {
+        width: 700px;
+        font-size: 80px;
+        line-height: 106px;
+    }
+    .second-title {
+        font-size: 24px;
+    }
+    .icon__next-section {
+        margin-bottom: 45px;
+    }
+}
