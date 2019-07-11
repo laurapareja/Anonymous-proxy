@@ -1,0 +1,43 @@
+.icon__menu {
+    position: fixed;
+    background-color: $color-dark;
+    height: 44px;
+    width: 44px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__menu_image {
+    width: 18px;
+}
+
+.icon__next-section {
+    background-color: $color-light;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.buttom_go {
+    background-color: $color-light;
+    height: 45px;
+    width: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35%;
+    border: solid $color-secondary 2.5px;
+    color: $color-secondary;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    font-family: $font-family-nd;
+}
