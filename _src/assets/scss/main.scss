@@ -1,0 +1,21 @@
+@import 'core/reset';
+@import 'core/settings';
+@import 'core/links';
+@import 'components/buttons';
+@import 'components/hero';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+
+/*meter los partials scss que necesite
+
+body {
+    background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
+    margin: 0;
+    height: 100vh;
+}
+
+*/
+
+
+/* main scss*/
