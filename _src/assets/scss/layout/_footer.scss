@@ -34,6 +34,22 @@
     color: $color-light;
 }
 
+.heart {
+    display: inline-block;
+    animation-name: beating;
+    animation-duration: 0.5s;
+    animation-iteration-count: 30;
+}
+
+@keyframes beating {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(2);
+    }
+}
+
 @media all and (min-width: 768px) {
     .footer_content {
         display: grid;
@@ -44,6 +60,7 @@
     }
     .copy_container {
         grid-area: copy;
+        padding-left: 39px;
     }
     .footer_menu {
         grid-area: menu;
@@ -55,13 +72,13 @@
 
 @media all and (min-width: 1200px) {
     .footer_content {
-        width: 510px;
+        max-width: 500px;
         position: relative;
         margin-left: calc(50% - 230px);
         display: grid;
         justify-content: center;
         text-align: left;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 200px 1fr 1fr;
         grid-template-areas: "copy menu media";
         grid-template-rows: 190px;
     }
