@@ -45,16 +45,20 @@
     }
 }
 
+.link_moreasons {
+    text-decoration: none;
+    color: $color-light;
+    font-size: 20px;
+    font-family: $font-family-nd;
+}
+
 .buttom_reasons {
     background-color: $color-secondary;
     height: 45px;
     width: 165px;
     border-radius: 20px;
     border: solid $color-secondary 2.5px;
-    color: $color-light;
     text-align: center;
-    font-size: 20px;
-    font-family: $font-family-nd;
     font-weight: normal;
     display: flex;
     justify-content: center;

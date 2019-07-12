@@ -9,9 +9,7 @@
 @import 'layout/footer';
 @import 'pages/index';
 @import 'core/mixins';
-
-/*containers para los margenes. gracias Carlos*/
-
+///
 .container {
     margin: 30px 15px 0 15px;
 }
@@ -27,17 +25,3 @@
         margin: 0 275px 0 275px;
     }
 }
-
-
-/*meter los partials scss que necesite
-
-body {
-    background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-    margin: 0;
-    height: 100vh;
-}
-
-*/
-
-
-/* main scss*/
