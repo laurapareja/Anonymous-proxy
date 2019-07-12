@@ -33,3 +33,15 @@
         }
     }
 }
+
+@media all and(min-width: 1200px) {
+    .label_text {
+        color: $color-tertiary;
+        font-size: 16px;
+    }
+    .section {
+        &_title {
+            font-size: 32px;
+        }
+    }
+}
