@@ -16,7 +16,8 @@
 
 .title {
     width: 300px;
-    font-family: $font-dark;
+    font-family: $font-family;
+    font-weight: bold;
     font-size: 42px;
     line-height: 55px;
     text-align: center;
@@ -36,8 +37,5 @@
     }
     .second-title {
         font-size: 24px;
-    }
-    .icon__next-section {
-        margin-bottom: 45px;
     }
 }

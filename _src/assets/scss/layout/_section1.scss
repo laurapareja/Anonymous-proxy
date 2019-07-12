@@ -8,11 +8,28 @@
     &_title {
         font-size: 24px;
         line-height: 30px;
-        font-family: $font-dark;
+        font-family: $font-family;
+        font-weight: bold;
     }
     &_text {
         font-size: 18px;
         line-height: 30px;
         color: #4a4a4a;
+    }
+}
+
+@media all and(min-width: 768px) {
+    .section {
+        &_title {
+            font-size: 26px;
+            line-height: 45px;
+            font-family: $font-family;
+            font-weight: bold;
+        }
+        &_text {
+            font-size: 20px;
+            line-height: 30px;
+            color: #4a4a4a;
+        }
     }
 }

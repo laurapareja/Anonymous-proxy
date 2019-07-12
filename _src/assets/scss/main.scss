@@ -16,6 +16,12 @@
     margin: 30px 15px 45px 15px;
 }
 
+@media all and(min-width:768px) {
+    .container {
+        margin: 30px 39px 60px 39px;
+    }
+}
+
 
 /*meter los partials scss que necesite
 

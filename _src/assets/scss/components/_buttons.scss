@@ -31,10 +31,11 @@
     line-height: 45px;
     text-align: center;
     font-family: $font-family-nd;
+    margin-top: 30px;
+    margin-bottom: 45px;
 }
 
 .buttom_reasons {
-    grid-row: span 1;
     background-color: $color-secondary;
     height: 45px;
     width: 165px;
@@ -49,6 +50,28 @@
 }
 
 .icon__home {
+    position: absolute;
+    margin-left: calc(50% - 22.5px);
+    margin-top: -22.5px;
+}
+
+.icon__next-section {
     position: relative;
-    top: 22.5px;
+    margin-bottom: 45px;
+    margin-top: 20px;
+}
+
+@media all and(min-width:768px) {
+    .buttom_go {
+        width: 91px;
+        border: solid $color-secondary 2.8px;
+        margin-bottom: 60px;
+    }
+    .icon__next-section {
+        margin-bottom: 45px;
+    }
+    .buttom_reasons {
+        grid-column: span 3;
+        margin-bottom: 60px;
+    }
 }
