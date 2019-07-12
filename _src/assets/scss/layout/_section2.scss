@@ -1,49 +1,62 @@
-.section2 {
-    background-color: $color-background;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 60px 140px 120px 120px 120px;
-    &_title {
-        text-align: center;
-        padding-top: 30px;
-    }
-    &_text {
-        text-align: center;
-    }
-    &_subtitle {
-        text-align: center;
-        size: 18px;
-        line-height: 30px;
-        font-family: $font-family;
-        font-weight: bold;
-        padding-top: 45px;
-    }
-}
-
-.section_container {
-    grid-row: span 1;
-}
-
-@media all and(min-width: 768px) {
-    .section_subtitle {
-        size: 24px;
-        line-height: 30px;
-        padding-top: 45px;
-    }
-    .section2 {
-        padding-top: 30px;
-        display: grid;
-        justify-items: center;
-        align-items: flex-start;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 75px 250px 105px;
-        &_title {
-            grid-column: span 3;
+        .section2_content {
+            background-color: $color-background;
         }
-    }
-    .section_container {
-        grid-row: span 1;
-    }
-}
+
+        .section2 {
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            grid-template-columns: 1fr;
+            grid-template-rows: 60px 140px 120px 120px 120px;
+            &_title {
+                text-align: center;
+                padding-top: 30px;
+            }
+            &_text {
+                text-align: center;
+            }
+            &_subtitle {
+                text-align: center;
+                size: 18px;
+                line-height: 30px;
+                font-family: $font-family;
+                font-weight: bold;
+                padding-top: 45px;
+            }
+        }
+
+        .section_container {
+            grid-row: span 1;
+        }
+
+        @media all and(min-width: 768px) {
+            .section_subtitle {
+                size: 24px;
+                line-height: 30px;
+                padding-top: 45px;
+            }
+            .section2 {
+                padding-top: 30px;
+                display: grid;
+                justify-items: center;
+                align-items: flex-start;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 75px 250px 105px;
+                &_title {
+                    grid-column: span 3;
+                }
+            }
+            .section_container {
+                grid-row: span 1;
+            }
+        }
+
+        @media all and(min-width:1200px) {
+            .section2 {
+                margin: 0 81px 0 81px;
+                grid-template-rows: 75px 200px 105px;
+                &_title {
+                    grid-column: span 3;
+                }
+            }
+        }

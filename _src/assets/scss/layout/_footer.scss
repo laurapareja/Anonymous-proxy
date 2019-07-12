@@ -1,3 +1,7 @@
+.footer_section {
+    background-color: $color-dark;
+}
+
 .footer_content {
     display: grid;
     justify-content: center;
@@ -5,7 +9,6 @@
     grid-template: 1fr;
     grid-template-rows: 180px 130px 80px;
     padding: 45px 0 45px 0;
-    background-color: $color-dark;
     font-size: 16px;
 }
 
@@ -34,6 +37,29 @@
 @media all and (min-width: 768px) {
     .footer_content {
         display: grid;
+        text-align: left;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "copy menu media";
+        grid-template-rows: 190px;
+    }
+    .copy_container {
+        grid-area: copy;
+    }
+    .footer_menu {
+        grid-area: menu;
+    }
+    .footer_socialmedia {
+        padding: 0;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .footer_content {
+        width: 510px;
+        position: relative;
+        margin-left: calc(50% - 230px);
+        display: grid;
+        justify-content: center;
         text-align: left;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: "copy menu media";
