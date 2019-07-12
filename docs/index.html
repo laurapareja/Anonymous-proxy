@@ -4,6 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Anonymous Proxy</title>
         <link rel="icon" href="favicon.png" />
         <link rel="stylesheet" href="assets/css/main.css">
@@ -16,8 +17,25 @@
             <main>
                 <header class="header" id="home">
                     <div class="hero">
-                        <div class="icon__menu">
-                            <img class="icon__menu_image" src="assets/icons/ico-menu.svg" alt="Welcome to Anonymous Proxy">
+                        <div class="container_menu_home">
+                            <button class="icon__menu">
+                                <img class="icon__menu_image" src="assets/icons/ico-menu.svg" alt="Welcome to Anonymous Proxy">
+                            </button>
+                            <div class="menu_home">
+                                <ul>
+                                    <div class="container ">
+                                        <li class="header_menu_item "> <a class="menu-top_link_" href="#home">HOME</a>
+
+                                        </li>
+                                        <li class="header_menu_item "> <a class="menu-top_link_" href="#section1">Looking through a window</a>
+
+                                        </li>
+                                        <li class="header_menu_item "> <a class="menu-top_link_" href="#section2">3 Reasons To Purchase</a>
+
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
                         </div>
                         <div class="hero__inner">
                              <h1 class="title">ANONYMOUS PROXY</h1>
@@ -32,56 +50,67 @@
                         </div>
                     </div>
                 </header>
-            </main>
-            <div class="container">
-                <section class="section" id="section1"> <small class="label_text">
+                <section class="section section1" id="section1">
+                    <div class="container"> <small class="label_text">
     Insomnia Tips
   </small>
 
-                     <h3 class="section_title">Looking Through A Window</h3>
+                         <h3 class="section_title">Looking Through A Window</h3>
 
-                    <p class="section_text">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
-                        luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
-                    <div class="buttom_go">Go</div>
+                        <p class="section_text">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
+                            luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                        class="buttom_go_link">
+            <button class="buttom_go">
+                Go
+            </button>
+        </a>
+
+                    </div>
                 </section>
-            </div>
-            <section class="section section2">
-                 <h3 class="section_title section2_title">3 Reasons To Purchase</h3>
+            </main>
+            <section class="section2_content" id="section2">
+                <div class="section section2">
+                     <h3 class="section_title section2_title">3 Reasons To Purchase</h3>
 
-                <div class="section_container">
-                    <div class="container">
-                         <h4 class="section_subtitle section2_subtitle">Ut sed metus</h4>
-
-                        <p class="section_text section2_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="section_container">
-                    <div class="container">
-                         <h4 class="section_subtitle section2_subtitle">Curabitur ac erat</h4>
-
-                        <p class="section_text section2_text">Mauris mattis urna quis lorem molestie.</p>
-                    </div>
-                </div>
-                <div class="section_container">
-                    <div class="container">
-                         <h4 class="section_subtitle section2_subtitle">
-                Morbi dictum
-            </h4>
-
-                        <p class="section_text section2_text">Aliquam in dolor et dolor tincidunt.</p>
-                    </div>
-                </div>
-                <div class="buttom_reasons">More reasons</div>
-            </section>
-            <footer class="footer"> <a href="#home">
-        <div class="icon__home">
-            <img src="assets/icons/ico-arrow.svg" alt="">
-        </div>
-    </a>
-
-                <div class="footer_content">
-                    <div class="footer_menu">
+                    <div class="section_container">
                         <div class="container">
+                             <h4 class="section_subtitle section2_subtitle">Ut sed metus</h4>
+
+                            <p class="section_text section2_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="section_container">
+                        <div class="container">
+                             <h4 class="section_subtitle section2_subtitle">Curabitur ac erat</h4>
+
+                            <p class="section_text section2_text">Mauris mattis urna quis lorem molestie.</p>
+                        </div>
+                    </div>
+                    <div class="section_container">
+                        <div class="container">
+                             <h4 class="section_subtitle section2_subtitle">
+                    Morbi dictum
+                </h4>
+
+                            <p class="section_text section2_text">Aliquam in dolor et dolor tincidunt.</p>
+                        </div>
+                    </div>
+                    <div class="buttom_container">
+                        <buttom class="buttom_reasos"> <a href="https://www.youtube.com/watch?v=8YGlzSl6cxU" class="link_moreasons buttom_reasons">More reasons</a>
+
+                            </button>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer_section">
+                <div class="footer"> <a href="#home">
+            <button class="icon__home">
+                <img src="assets/icons/ico-arrow.svg" alt="">
+            </button>
+        </a>
+
+                    <div class="footer_content">
+                        <div class="footer_menu">
                             <ul>
                                 <li class="footer_menu_item menu_link" href="#articles">ARTICLES</li>
                                 <li class="footer_menu_item menu_link" href="#books">BOOKS</li>
@@ -90,10 +119,8 @@
                                 <li class="footer_menu_item menu_link" href="#tips">TIPS</li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="footer_socialmedia">
-                        <ul>
-                            <div class="container">
+                        <div class="footer_socialmedia">
+                            <ul>
                                 <li class="footer_menu_item"> <a class="menu_link" href="https://www.twitter.com">TWITTER</a>
 
                                 </li>
@@ -103,12 +130,10 @@
                                 <li class="footer_menu_item"> <a class="menu_link" href="https://mastodon.social/about">MASTODON.SOCIAL</a>
 
                                 </li>
-                            </div>
-                        </ul>
-                    </div>
-                    <div class="copy_container">
-                        <div class="container">
-                            <div class="copy">&copy;2017</div> <small class="copy love">we  ❤️️ love components</small>
+                            </ul>
+                        </div>
+                        <div class="copy_container">
+                            <div class="copy">&copy;2017</div> <small class="copy love">we <div class="heart"> ❤️️</div> love components</small>
 
                         </div>
                     </div>

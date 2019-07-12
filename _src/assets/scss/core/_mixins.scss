@@ -13,3 +13,14 @@
 .icon__next-section {
     @include icon-properties();
 }
+
+@mixin button-properties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buttom_go {
+    @include button-properties();
+}

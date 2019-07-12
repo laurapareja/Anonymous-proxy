@@ -1,14 +1,13 @@
 @import 'core/reset';
 @import 'core/variables';
 @import 'core/links';
+@import 'core/mixins';
 @import 'components/buttons';
 @import 'components/hero';
 @import 'layout/header';
 @import 'layout/section1';
 @import 'layout/section2';
 @import 'layout/footer';
-@import 'pages/index';
-@import 'core/mixins';
 ///
 .container {
     margin: 30px 15px 0 15px;
