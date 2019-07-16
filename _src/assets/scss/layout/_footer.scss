@@ -1,5 +1,10 @@
+.copy_container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .footer_section {
-    background-color: $color-dark;
+    background-color: $color-primary;
 }
 
 .footer_content {
@@ -7,9 +12,13 @@
     justify-content: center;
     text-align: center;
     grid-template: 1fr;
-    grid-template-rows: 180px 130px 80px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 45px;
     padding: 45px 0 45px 0;
     font-size: 16px;
+    @media all and(min-width: 768px) {
+        grid-gap: 0;
+    }
 }
 
 .footer_menu {
@@ -31,7 +40,7 @@
 .love {
     font-family: $font-family-nd;
     text-decoration: none;
-    color: $color-light;
+    color: $color-superdark;
 }
 
 .heart {
