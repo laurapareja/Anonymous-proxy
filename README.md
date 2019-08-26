@@ -1,7 +1,6 @@
 # Anonymous Proxy
 
 ![Anonymous Proxy](./docs/assets/images/webpage1.png)
-![Anonymous Proxy](./docs/assets/images/webpage2.png)
 
 Responsive website. HTML5,CSS3. Ready for mobile, tablet & desktop browsers.
 Some of the tools used for this project are:
@@ -25,3 +24,4 @@ Some of the references I have consulted are:
 - http://www.mclibre.org/consultar/htmlcss/html/html-formularios.html
 
 If you want to tell me something about this project, don't hesitate to contact me: http://laurapareja.com
+![Anonymous Proxy](./docs/assets/images/webpage2.png)
